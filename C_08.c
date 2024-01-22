@@ -11,21 +11,21 @@ int     i,  j;
                 return 1;
         }
 
-    printf("Input the value of B: \n");
-        if ((scanf(" %d", &j)) != 1) {
-            printf("Invalid input, enter a valid integer value: \n");
-                return 1;
-        }
-
-            if (j > i) {
-                printf("%d is higher than %d \n", j, i);
+        printf("Input the value of B: \n");
+            if ((scanf(" %d", &j)) != 1) {
+                printf("Invalid input, enter a valid integer value: \n");
+                    return 1;
             }
-                else if (j == i) {
-                    printf("%d is equal to %d \n", i, j);
+
+                if (j > i) {
+                    printf("%d is higher than %d \n", j, i);
                 }
-                    else {
-                        printf("%d is lower than %d \n", j, i);
+                    else if (j == i) {
+                        printf("%d is equal to %d \n", i, j);
                     }
+                        else {
+                            printf("%d is lower than %d \n", j, i);
+                        }
 
     return 0;
 }
