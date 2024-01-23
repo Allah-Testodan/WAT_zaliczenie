@@ -15,8 +15,8 @@ int bitwise_conjuction(int a, int b) {
 int main()
 {
     int n;
-    char AL1 = 0xAA;
-    char AH1 = 0xF0;
+        char AL1 = 0xAA;
+        char AH1 = 0xF0;
     int a = 2;
     int b = 10;
 
