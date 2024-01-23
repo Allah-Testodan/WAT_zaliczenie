@@ -1,1 +1,1 @@
-La dolce vita bitches
+uzbro ssie palke
