@@ -2,7 +2,7 @@
 #include <math.h>
 #include <stdlib.h>
 
-
+ 
 void    print_array(int *array, int input_size) {
     for (int n = 0; n <= input_size; n++) {
         printf("%d, ", array[n]);
