@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-int main()
+int     main()
 {
-    int size;
-    int n;
+    int     size;
+    int     n;
 
     printf("Input the size of loop: \n");
         scanf(" %d", &size);
