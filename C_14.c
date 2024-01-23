@@ -2,7 +2,7 @@
 
 #define size 10
 
-int main() 
+int     main() 
 {
     int array[size];
 
