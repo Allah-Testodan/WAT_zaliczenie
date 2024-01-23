@@ -26,6 +26,6 @@ int     i,  j;
                         else {
                             printf("%d is lower than %d \n", j, i);
                         }
-
+                        
     return 0;
 }
