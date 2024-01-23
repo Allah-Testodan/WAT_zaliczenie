@@ -1,20 +1,20 @@
 #include <stdio.h>
 
-int bitwise_disjoint_alternative(int a, int b) {
+int     bitwise_disjoint_alternative(int a, int b) {
     return a ^ b;
 }
 
-int bitwise_alternative(int a, int b) {
+int     bitwise_alternative(int a, int b) {
     return a & b;
 }
 
-int bitwise_conjuction(int a, int b) {
+int     bitwise_conjuction(int a, int b) {
     return a | b;
 }
 
-int main()
+int     main()
 {
-    int n;
+    int     n;
         char AL1 = 0xAA;
         char AH1 = 0xF0;
     int a = 2;
