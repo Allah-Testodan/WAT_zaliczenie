@@ -79,7 +79,7 @@ int     main()
                             }
                                     break;
                   }
-
+ 
 is_primary(n);
 is_negative(n);
 check_parity(n);
