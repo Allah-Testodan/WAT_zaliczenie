@@ -19,7 +19,6 @@ void  print_array(int array[A][B]) {
     }
 }
 
-
 int main() {
 
 int array[A][B];
