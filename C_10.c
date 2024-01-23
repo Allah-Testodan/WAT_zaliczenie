@@ -19,7 +19,7 @@ int bit_5 = n & (1 << 5);
     }
 }
 
-int count_bits(int n) {
+int     count_bits(int n) {
     int count = 0;
     while (n) {
         count++;
@@ -30,7 +30,7 @@ int count_bits(int n) {
 
 int     main()
 {
-    int n;
+    int     n;
 
         printf("Input the value of integer number: \n");
         if ((scanf("%d", &n)) != 1) {
