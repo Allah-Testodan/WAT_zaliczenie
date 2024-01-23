@@ -47,13 +47,12 @@ int     main()
                 else {
                     printf("%d is not a prime number! \n", i);
                 }
-
                         if (check_parity(i)) {
                             printf("%d is even! \n", i);
                         }
-                                else {
-                                  printf("%d is odd! \n", i);
-                                }
+                else {
+                    printf("%d is odd! \n", i);
+                }
 
 check_parity(i);
 check_primarity(i);
